@@ -1,0 +1,949 @@
+/* Auto-generated @font-face rules */
+
+@font-face {
+  font-family: 'DSAlmond';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSAlmond.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSAn-ko';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSAn-ko.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSAroimak';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSAroimak.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBagel';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBagel.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBali';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBali.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBallet';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBallet.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBanball';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBanball.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBangsaen';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBangsaen.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBansuan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBansuan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBirthday';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBirthday.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSBualoy';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSBualoy.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSCalcium';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSCalcium.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSCaramel';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSCaramel.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSCarrot';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSCarrot.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSChaingmai';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSChaingmai.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSChanomnueb';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSChanomnueb.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSCheescake';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSCheescake.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSCoachella';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSCoachella.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSDaosao';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSDaosao.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSEclairs';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSEclairs.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSFender';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSFender.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSGanesh';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSGanesh.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSGoodday';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSGoodday.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSHawkins';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSHawkins.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSHomok';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSHomok.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSHongyok';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSHongyok.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSInter';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSInter.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSJaonaay';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSJaonaay.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSKaphrao';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSKaphrao.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSKhaiwan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSKhaiwan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSKhamuu';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSKhamuu.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSKhanomtan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSKhanomtan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSKhonglen';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSKhonglen.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSKluai-thot';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSKluai-thot.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSLepan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSLepan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSLookpeach';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSLookpeach.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMala';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMala.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMalfeilTester';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMalfeilTester.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMaltese';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMaltese.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSManow';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSManow.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSManwan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSManwan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMarvel';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMarvel.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMascot';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMascot.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMatoer';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMatoer.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMelbourne';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMelbourne.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMelon';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMelon.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMendel';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMendel.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMerlin';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMerlin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMeter';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMeter.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMokaeng.250929-1749';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMokaeng.250929-1749.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMonThong';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMonThong.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMookrobThin';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMookrobThin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMorgan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMorgan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMotor';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMotor.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMueangjeen';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMueangjeen.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMustang';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMustang.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMustard';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMustard.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSNangsue';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSNangsue.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSNewclear';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSNewclear.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSNewyear';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSNewyear.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSNoodle';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSNoodle.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSOilpastel';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSOilpastel.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSPasta';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSPasta.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSPhloenWan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSPhloenWan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSPhukhao';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSPhukhao.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSReindeer';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSReindeer.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSScalar';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSScalar.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSSomwhan';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSSomwhan.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSSpacebar';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSSpacebar.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSStar';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSStar.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSSubway';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSSubway.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSSunday';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSSunday.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSSydney';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSSydney.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSThunder';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSThunder.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSValentine';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSValentine.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSWednesday';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSWednesday.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSWelcome';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSWelcome.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSbah-chang';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSbah-chang.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSbhayu';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSbhayu.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DScatier';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DScatier.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DScharlotte';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DScharlotte.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSchocomilk';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSchocomilk.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DScyclone';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DScyclone.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DScynthia';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DScynthia.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSdiana';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSdiana.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSfigure';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSfigure.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSfongnom';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSfongnom.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSgalileo';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSgalileo.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DShippie';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DShippie.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSkhaoklong';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSkhaoklong.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSlandokmai';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSlandokmai.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSluxury';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSluxury.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmajor';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmajor.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmannoeiTester';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmannoeiTester.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmaple';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmaple.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmargie';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmargie.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmaterial';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmaterial.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSminako';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSminako.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmolecules';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmolecules.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmooyong';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmooyong.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmooyor';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmooyor.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSnommi';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSnommi.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSpadlom';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSpadlom.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSpakkrob';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSpakkrob.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSpanfilm';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSpanfilm.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSpangyen';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSpangyen.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSpuimek';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSpuimek.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSsaifah';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSsaifah.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSstevia';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSstevia.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSsummer';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSsummer.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DStakeab';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DStakeab.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSthianhom';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSthianhom.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSwaidek';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSwaidek.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RGHongkong';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/RGHongkong.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'RGVictoria';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/RGVictoria.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKAnis';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKAnis.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKAnlene';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKAnlene.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKBluewhale';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKBluewhale.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKBobtail';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKBobtail.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKCanele';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKCanele.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKCayla';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKCayla.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKCindy';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKCindy.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKConnor';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKConnor.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKCreampuff';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKCreampuff.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKCulture';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKCulture.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKDragon';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKDragon.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKFilson';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKFilson.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKHarmony';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKHarmony.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKKaiFahPayaLor';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKKaiFahPayaLor.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKKamin';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKKamin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKKhaopad';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKKhaopad.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKKhaosoi';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKKhaosoi.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKLasta';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKLasta.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKManmuang 2';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKManmuang%202.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKMaphrao';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKMaphrao.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKMartin';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKMartin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKMooDeng';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKMooDeng.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKMoobin';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKMoobin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKMoojeaw';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKMoojeaw.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKMooji';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKMooji.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKNeptune';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKNeptune.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKNilda';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKNilda.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKNokkaeo';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKNokkaeo.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKPahMai';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKPahMai.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKPangpond';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKPangpond.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKPatty';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKPatty.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKPeter';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKPeter.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKPetnoi';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKPetnoi.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKPudding';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKPudding.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKSangkhaya';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKSangkhaya.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKSinclair';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKSinclair.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKSomtum';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKSomtum.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKSudjai';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKSudjai.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKTeddy';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKTeddy.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKThanos';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKThanos.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKTuna';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKTuna.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKVenus';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKVenus.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKYukHin';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKYukHin.ttf') format('truetype');
+  font-display: swap;
+}
