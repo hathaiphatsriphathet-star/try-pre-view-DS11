@@ -8,10 +8,11 @@ const chips   = document.querySelectorAll('.font-chip');
 let currentFont = 'DSAlmond';
 let currentSize = 36;
 
-// Update preview text
 function updatePreview() {
   const text = input.value.trim();
-  preview.textContent = text || 'ทดลองพิมพ์ฟอนต์...';
+  const display = text || 'ทดลองพิมพ์ฟอนต์...';
+  preview.textContent = display;
+  preview.setAttribute('data-text', display);
 }
 
 // Update font
