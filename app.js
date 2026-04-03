@@ -11,7 +11,7 @@ let currentSize = 36;
 // Update preview text
 function updatePreview() {
   const text = input.value.trim();
-  preview.textContent = text || 'The art of writing is the soul of thinking.';
+  preview.textContent = text || 'ทดลองพิมพ์ฟอนต์...';
 }
 
 // Update font
@@ -26,8 +26,8 @@ function setSize(size) {
   preview.style.fontSize = size + 'px';
   const pct = ((size - 14) / (72 - 14)) * 100;
   slider.style.background = `linear-gradient(to right,
-    var(--pink-400) 0%, var(--pink-400) ${pct}%,
-    var(--pink-200) ${pct}%, var(--pink-200) 100%)`;
+    var(--maroon-400) 0%, var(--maroon-400) ${pct}%,
+    var(--maroon-200) ${pct}%, var(--maroon-200) 100%)`;
 }
 
 // Font chip clicks

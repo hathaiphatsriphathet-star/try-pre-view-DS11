@@ -120,11 +120,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'DSFender';
-  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSFender.ttf') format('truetype');
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'DSGanesh';
@@ -222,11 +217,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'DSMalfeilTester';
-  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMalfeilTester.ttf') format('truetype');
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'DSMaltese';
@@ -306,11 +296,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'DSMookrobThin';
-  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMookrobThin.ttf') format('truetype');
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'DSMorgan';
@@ -558,11 +543,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'DSmannoeiTester';
-  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmannoeiTester.ttf') format('truetype');
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'DSmaple';
@@ -945,5 +925,35 @@
 @font-face {
   font-family: 'TKYukHin';
   src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKYukHin.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMalfeil';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMalfeil.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMalkist';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMalkist.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSMookrob';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSMookrob.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DSmannoei';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSmannoei.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TKNicholas';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKNicholas.ttf') format('truetype');
   font-display: swap;
 }
