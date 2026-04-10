@@ -427,29 +427,19 @@ body {
 }
 
 .font-preview::before {
-  content: "TESTER TESTER TESTER TESTER TESTER";
+  content: "";
   position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Inter', sans-serif !important;
-  font-size: 3.5rem;
-  font-weight: 800;
-  color: rgba(140, 16, 40, 0.08);
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-image: url('IMG_0113.png');
+  background-repeat: repeat;
+  background-size: 90px;
+  opacity: 0.1;
   pointer-events: none;
-  transform: rotate(-10deg) scale(1.5);
-  letter-spacing: 8px;
-  text-align: center;
-  white-space: nowrap;
+  transform: rotate(-15deg);
   z-index: -1;
-  background: repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 10px,
-    rgba(140, 16, 40, 0.03) 10px,
-    rgba(140, 16, 40, 0.03) 20px
-  );
 }
 
 /* Get Font Button */
