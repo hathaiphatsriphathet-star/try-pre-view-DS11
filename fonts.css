@@ -1,6 +1,12 @@
 /* Auto-generated @font-face rules */
 
 @font-face {
+  font-family: 'TKKhao-phod-op-noey';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKKhao-phod-op-noey.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'DSAlmond';
   src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSAlmond.ttf') format('truetype');
   font-display: swap;
