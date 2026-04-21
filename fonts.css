@@ -695,6 +695,12 @@
 }
 
 @font-face {
+  font-family: 'RGButter';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/RGButter.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'TKAnis';
   src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKAnis.ttf') format('truetype');
   font-display: swap;
