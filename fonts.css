@@ -1005,3 +1005,9 @@
   src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKNicholas.ttf') format('truetype');
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'DSYaowarat';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSYaowarat.ttf') format('truetype');
+  font-display: swap;
+}
