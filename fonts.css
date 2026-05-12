@@ -755,6 +755,12 @@
 }
 
 @font-face {
+  font-family: 'TKCopter';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKCopter.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'TKCreampuff';
   src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/TKCreampuff.ttf') format('truetype');
   font-display: swap;
