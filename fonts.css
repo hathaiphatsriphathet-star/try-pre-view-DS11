@@ -91,6 +91,12 @@
 }
 
 @font-face {
+  font-family: 'DSCarbon';
+  src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSCarbon.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'DSCarrot';
   src: url('%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%9F%E0%B8%AD%E0%B8%99%E0%B8%95%E0%B9%8C/DSCarrot.ttf') format('truetype');
   font-display: swap;
