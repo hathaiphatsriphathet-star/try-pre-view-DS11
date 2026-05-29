@@ -84,7 +84,7 @@ const EMOJI_FONTS = {
   'DSEmoji01':  { label: 'อิโมจิEp.1', chars: '!#%0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' },
   'DSEmojiEp2': { label: 'อิโมจิEp.2', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
   'EmojiEp3':   { label: 'อิโมจิEp.3', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~฿๐๑๒๓๔๕๖๗๘๙' },
-  'DSEmojiEp4': { label: 'อิโมจิEp.4', chars: '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~฿“”' },
+  'DSEmojiEp4': { label: 'อิโมจิEp.4', chars: '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ฯ฿๐๑๒๓๔๕๖๗๘๙‘’“”' },
   'DSEmojiEp5': { label: 'อิโมจิEp.5', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
   'DSEmojiEp6':  { label: 'อิโมจิEp.6',  chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
   'TKEmojiEp7':  { label: 'อิโมจิEp.7',  chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
