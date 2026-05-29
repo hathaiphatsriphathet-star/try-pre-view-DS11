@@ -1,4 +1,4 @@
-/* ── Reset & Base ── */
+\\\\   vvxb/* ── Reset & Base ── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -440,6 +440,86 @@ body {
   pointer-events: none;
   transform: rotate(-15deg);
   z-index: -1;
+}
+
+/* ── Emoji Font Tester ── */
+.emoji-tester {
+  margin: 16px 24px 0;
+}
+
+.emoji-font-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.emoji-chip {
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1.5px solid var(--maroon-200);
+  background: var(--white);
+  color: var(--text-mid);
+  font-size: 0.78rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.emoji-chip:hover {
+  border-color: var(--maroon-400);
+  color: var(--maroon-500);
+}
+
+.emoji-chip.active {
+  background: var(--maroon-400);
+  border-color: var(--maroon-400);
+  color: var(--white);
+  font-weight: 500;
+}
+
+.emoji-marquee {
+  background: var(--maroon-400);
+  border-radius: 999px;
+  padding: 14px 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow-btn);
+}
+
+.emoji-marquee-track {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'DSEmojiEp9', sans-serif;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--white);
+  animation: emoji-scroll 36s linear infinite;
+  will-change: transform;
+}
+
+.emoji-marquee-track.paused {
+  animation-play-state: paused;
+}
+
+.emoji-marquee:hover .emoji-marquee-track {
+  animation-play-state: paused;
+}
+
+.emoji-marquee-track > span {
+  display: inline-block;
+  margin-right: 22px;
+  vertical-align: middle;
+}
+
+@keyframes emoji-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.emoji-marquee-track.no-anim {
+  animation: none;
+  transform: none;
 }
 
 /* Get Font Button */
