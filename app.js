@@ -1,12 +1,18 @@
-// ── Font Tester ──
-
 const preview = document.getElementById('fontPreview');
-const input   = document.getElementById('testerInput');
-const slider  = document.getElementById('fontSizeSlider');
-const chips   = document.querySelectorAll('.font-chip');
+const input = document.getElementById('testerInput');
+const slider = document.getElementById('fontSizeSlider');
+const fontSelector = document.querySelector('.font-selector');
+const fontSearch = document.getElementById('fontSearch');
+const fontSearchCount = document.getElementById('fontSearchCount');
+const emojiTrack = document.getElementById('emojiTrack');
+const emojiChips = document.querySelectorAll('.emoji-chip');
 
 let currentFont = 'DSAlmond';
 let currentSize = 36;
+
+function getFontChips() {
+  return [...document.querySelectorAll('.font-chip')];
+}
 
 function updatePreview() {
   const text = input.value.trim();
@@ -15,97 +21,89 @@ function updatePreview() {
   preview.setAttribute('data-text', display);
 }
 
-// Update font
 function setFont(fontName) {
   currentFont = fontName;
   preview.style.fontFamily = `'${fontName}', cursive`;
 }
 
-// Update size + slider gradient
 function setSize(size) {
   currentSize = size;
-  preview.style.fontSize = size + 'px';
+  preview.style.fontSize = `${size}px`;
   const pct = ((size - 14) / (72 - 14)) * 100;
   slider.style.background = `linear-gradient(to right,
     var(--maroon-400) 0%, var(--maroon-400) ${pct}%,
     var(--maroon-200) ${pct}%, var(--maroon-200) 100%)`;
 }
 
-// Font chip clicks
-chips.forEach(chip => {
-  chip.addEventListener('click', () => {
-    chips.forEach(c => c.classList.remove('active'));
+function updateCount(visible) {
+  const total = getFontChips().length;
+  fontSearchCount.textContent = visible < total ? `${visible} / ${total}` : '';
+}
+
+function filterFonts() {
+  const q = fontSearch.value.trim().toLowerCase();
+  let visible = 0;
+  getFontChips().forEach(chip => {
+    const label = chip.textContent.toLowerCase();
+    const font = chip.dataset.font.toLowerCase();
+    const show = !q || label.includes(q) || font.includes(q);
+    chip.style.display = show ? '' : 'none';
+    if (show) visible += 1;
+  });
+  updateCount(visible);
+}
+
+if (fontSelector) {
+  fontSelector.addEventListener('click', event => {
+    const chip = event.target.closest('.font-chip');
+    if (!chip) return;
+    getFontChips().forEach(node => node.classList.remove('active'));
     chip.classList.add('active');
     setFont(chip.dataset.font);
   });
-});
+}
 
-// Input listener
 input.addEventListener('input', updatePreview);
+slider.addEventListener('input', () => setSize(Number(slider.value)));
+fontSearch.addEventListener('input', filterFonts);
 
-// Slider listener
-slider.addEventListener('input', () => {
-  setSize(Number(slider.value));
-});
-
-// Init
 setSize(currentSize);
 setFont(currentFont);
 updatePreview();
-
-// ── Font Search ──
-const fontSearch = document.getElementById('fontSearch');
-const fontSearchCount = document.getElementById('fontSearchCount');
-
-function updateCount(visible) {
-  fontSearchCount.textContent = visible < chips.length ? `${visible} / ${chips.length}` : '';
-}
-
-fontSearch.addEventListener('input', () => {
-  const q = fontSearch.value.trim().toLowerCase();
-  let visible = 0;
-  chips.forEach(chip => {
-    const label = chip.textContent.toLowerCase();
-    const font  = chip.dataset.font.toLowerCase();
-    const show  = !q || label.includes(q) || font.includes(q);
-    chip.style.display = show ? '' : 'none';
-    if (show) visible++;
-  });
-  updateCount(visible);
-});
-
-updateCount(chips.length);
-
-// ── Emoji Font Marquee ──
-const emojiTrack = document.getElementById('emojiTrack');
-const emojiChips = document.querySelectorAll('.emoji-chip');
+updateCount(getFontChips().length);
 
 const EMOJI_FONTS = {
-  'DSEmoji01':  { label: 'อิโมจิEp.1', chars: '!#%0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' },
-  'DSEmojiEp2': { label: 'อิโมจิEp.2', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
-  'EmojiEp3':   { label: 'อิโมจิEp.3', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~฿๐๑๒๓๔๕๖๗๘๙' },
-  'DSEmojiEp4': { label: 'อิโมจิEp.4', chars: '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ฯ฿๐๑๒๓๔๕๖๗๘๙‘’“”' },
-  'DSEmojiEp5': { label: 'อิโมจิEp.5', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
-  'DSEmojiEp6':  { label: 'อิโมจิEp.6',  chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
-  'TKEmojiEp7':  { label: 'อิโมจิEp.7',  chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
-  'TKEmojiEp8':  { label: 'อิโมจิEp.8',  chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
-  'DSEmojiEp9':  { label: 'อิโมจิEp.9',  chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_abcdefghijklmnopqrstuvwxyz{}~' },
-  'DSEmojiEp10': { label: 'อิโมจิEp.10', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
-  'DSEmojiEp11': { label: 'อิโมจิEp.11', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
-  'DSEmojiEp12': { label: 'อิโมจิEp.12', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  DSEmoji01: { label: 'อิโมจิEp.1', chars: '!#%0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz' },
+  DSEmojiEp2: { label: 'อิโมจิEp.2', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  EmojiEp3: { label: 'อิโมจิEp.3', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~฿๐๑๒๓๔๕๖๗๘๙' },
+  DSEmojiEp4: { label: 'อิโมจิEp.4', chars: '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ฯ฿๐๑๒๓๔๕๖๗๘๙‘’“”' },
+  DSEmojiEp5: { label: 'อิโมจิEp.5', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  DSEmojiEp6: { label: 'อิโมจิEp.6', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  TKEmojiEp7: { label: 'อิโมจิEp.7', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  TKEmojiEp8: { label: 'อิโมจิEp.8', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  DSEmojiEp9: { label: 'อิโมจิEp.9', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_abcdefghijklmnopqrstuvwxyz{}~' },
+  DSEmojiEp10: { label: 'อิโมจิEp.10', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  DSEmojiEp11: { label: 'อิโมจิEp.11', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
+  DSEmojiEp12: { label: 'อิโมจิEp.12', chars: '!#$%&()*+-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}฿๐๑๒๓๔๕๖๗๘๙' },
 };
 
 let activeEmojiFont = 'DSEmoji01';
 
-function escapeHTML(c) {
-  return c.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function escapeHTML(char) {
+  return char.replace(/[&<>"']/g, match => ({
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+  }[match]));
 }
 
 function renderEmojiTrack(chars) {
-  const html = [...chars].map(c => `<span>${escapeHTML(c)}</span>`).join('');
+  const html = [...chars].map(char => `<span>${escapeHTML(char)}</span>`).join('');
   emojiTrack.innerHTML = html + html;
   const seconds = Math.max(12, Math.min(60, chars.length * 0.45));
-  emojiTrack.style.animationDuration = seconds + 's';
+  emojiTrack.style.animationDuration = `${seconds}s`;
 }
 
 function applyEmojiFont(fontKey) {
@@ -122,20 +120,19 @@ if (emojiTrack) {
 
 emojiChips.forEach(chip => {
   chip.addEventListener('click', () => {
-    emojiChips.forEach(c => c.classList.remove('active'));
+    emojiChips.forEach(node => node.classList.remove('active'));
     chip.classList.add('active');
     applyEmojiFont(chip.dataset.font);
   });
 });
 
-// ── Gallery click → jump to tester ──
 document.querySelectorAll('.gallery-item').forEach(item => {
   item.addEventListener('click', () => {
     const fontName = item.dataset.font;
     if (!fontName) return;
-    const chip = [...chips].find(c => c.dataset.font === fontName);
+    const chip = getFontChips().find(node => node.dataset.font === fontName);
     if (chip) {
-      chips.forEach(c => c.classList.remove('active'));
+      getFontChips().forEach(node => node.classList.remove('active'));
       chip.classList.add('active');
     }
     setFont(fontName);
